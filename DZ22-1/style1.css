@@ -1,0 +1,107 @@
+h1,h2{
+  font-size: 20pm;
+   color: pink;}
+
+.contact-message {
+  background-color: #f9f9f9; 
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contact-message h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-message p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.message-form input, .message-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.message-form button {
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007BFF; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-form button:hover {
+  background-color: #0056b3; 
+}
+
+@media (max-width: 768px) {
+  .contact-message {
+    padding: 20px;
+  }
+  
+  .message-form input, .message-form textarea {
+    font-size: 1rem;
+  }
+
+  .message-form button {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contact-info .item {
+  width: 30%;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-info .item i {
+  font-size: 20px;
+  color: #007BFF;
+  margin-right: 10px;
+}
+
+body {
+  background:linear-gradient(45deg,#ff0066,#6a5acd,#00bcd4);
+  background-size:400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+
+ @keyframes gradient {
+  0% {background-position: 0% 50%}
+  50% {background-position: 100% 50%}
+  100%{ background-position: 0% 50% }
+ }
